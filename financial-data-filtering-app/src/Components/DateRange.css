@@ -1,0 +1,19 @@
+/* src/Components/DateRange.css */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 150px;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    width: 150px;
+}
