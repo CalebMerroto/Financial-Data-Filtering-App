@@ -1,4 +1,9 @@
 /* src/Components/DateRange.css */
+.date-range {
+    display: flex;
+    flex-direction: column;
+}
+
 label {
     font-size: 14px;
     font-weight: bold;

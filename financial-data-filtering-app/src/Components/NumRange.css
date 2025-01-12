@@ -1,0 +1,7 @@
+/* src/Components/DateRange.css */
+
+
+.num-range {
+    display: flex;
+    flex-direction: column;
+}

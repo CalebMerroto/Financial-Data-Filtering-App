@@ -1,11 +1,12 @@
 // src/Components/NumRange.jsx
-
+import "./NumRange.css"
 
 function NumRange({ min, setMin, max, setMax, minLabel, maxLabel }) {
     return (
         <div className="num-range">
             <label>
-                {minLabel}
+                
+            <span>{minLabel}: </span>
                 <input
                     type="number"
                     value={min || ""}
@@ -13,7 +14,7 @@ function NumRange({ min, setMin, max, setMax, minLabel, maxLabel }) {
                 />
             </label>
             <label>
-                {maxLabel}
+                <span>{maxLabel}: </span>
                 <input
                     type="number"
                     value={max || ""}
