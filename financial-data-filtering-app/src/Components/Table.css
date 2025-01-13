@@ -54,33 +54,32 @@ td {
 @media (max-width: 768px) {
     /* Make table scrollable horizontally */
     table {
-        font-size: 14px;
-        display: block;
+        width: 100%;
+        border-collapse: collapse;
         overflow-x: auto;
-        white-space: nowrap;
+        display: inline-block; 
+        font-size: 14px;
+    }
+
+    thead,
+    tbody {
+        display: table; 
+        width: 100%;
     }
 
     th, td {
         padding: 10px;
+        white-space: nowrap; 
     }
 
-    thead tr {
-        display: table; /* Ensure headers are still visible in the scrollable table */
-        width: 100%;
+    th {
+        background-color: #f4f4f4;
+        position: sticky;
+        top: 0;
+        z-index: 1;
     }
 
-    tbody tr {
-        display: table-row;
-    }
-
-    /* Stack filters vertically */
-    .filters {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .filters label, .filters input, .filters select {
-        width: 100%;
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
     }
 }
