@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Financial-Data-Filtering-App/static/css/main.3028e9c8.chunk.css",
+    "main.js": "/Financial-Data-Filtering-App/static/js/main.8fa40f24.chunk.js",
+    "main.js.map": "/Financial-Data-Filtering-App/static/js/main.8fa40f24.chunk.js.map",
+    "runtime-main.js": "/Financial-Data-Filtering-App/static/js/runtime-main.e83638f5.js",
+    "runtime-main.js.map": "/Financial-Data-Filtering-App/static/js/runtime-main.e83638f5.js.map",
+    "static/js/2.de0de1ae.chunk.js": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js",
+    "static/js/2.de0de1ae.chunk.js.map": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js.map",
+    "index.html": "/Financial-Data-Filtering-App/index.html",
+    "precache-manifest.e96977132894924f58050bfe9e6fb0ed.js": "/Financial-Data-Filtering-App/precache-manifest.e96977132894924f58050bfe9e6fb0ed.js",
+    "service-worker.js": "/Financial-Data-Filtering-App/service-worker.js",
+    "static/css/main.3028e9c8.chunk.css.map": "/Financial-Data-Filtering-App/static/css/main.3028e9c8.chunk.css.map",
+    "static/js/2.de0de1ae.chunk.js.LICENSE.txt": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e83638f5.js",
+    "static/js/2.de0de1ae.chunk.js",
+    "static/css/main.3028e9c8.chunk.css",
+    "static/js/main.8fa40f24.chunk.js"
+  ]
+}
