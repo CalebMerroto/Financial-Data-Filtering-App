@@ -5,7 +5,10 @@ import React from 'react';
 
 function App() {
   return (
-    <Table/>
+    <div>
+      <h1 className='title'>Financial Data Filtering App</h1>
+      <Table/>
+    </div>
   );
 }
 
