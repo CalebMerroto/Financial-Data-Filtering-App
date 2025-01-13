@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "984bc10656a535d9166050ad7ee3c7b9",
+    "revision": "e2fe5976999e4fec670383f669e859cb",
     "url": "/Financial-Data-Filtering-App/index.html"
   },
   {
-    "revision": "b6291d00958847aa7849",
-    "url": "/Financial-Data-Filtering-App/static/css/main.16c9c07a.chunk.css"
+    "revision": "467d3e7d114b1fb0b711",
+    "url": "/Financial-Data-Filtering-App/static/css/main.d5b43c0e.chunk.css"
   },
   {
     "revision": "fb456a614b682d9a0f9a",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6291d00958847aa7849",
+    "revision": "467d3e7d114b1fb0b711",
     "url": "/Financial-Data-Filtering-App/static/js/main.9fc20cf3.chunk.js"
   },
   {
