@@ -76,7 +76,7 @@ function Table() {
     
 
     return (
-        <div>
+        <>
             <div className="filters">
                 <DateRange
                     startDate={startDate}
@@ -101,49 +101,51 @@ function Table() {
                     maxLabel={"Maximum Income"}
                 />
             </div>
-            <table>
-                <thead>
-                    <tr>
-                        <SortSelect
-                            sortBy={sortBy} 
-                            setSortBy={setSortBy} 
-                            setSortOrder={setSortOrder} 
-                            sortOrder={sortOrder} 
-                            label="Date" 
-                        />
-                        <SortSelect 
-                            sortBy={sortBy} 
-                            setSortBy={setSortBy} 
-                            setSortOrder={setSortOrder} 
-                            sortOrder={sortOrder} 
-                            label="Revenue" 
-                        />
-                        <SortSelect 
-                            sortBy={sortBy} 
-                            setSortBy={setSortBy} 
-                            setSortOrder={setSortOrder} 
-                            sortOrder={sortOrder} 
-                            label="Net Income" 
-                        />
-                        <th>Gross Profit</th>
-                        <th>EPS (Earnings Per Share)</th>
-                        <th>Operating Income</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {filtered.map((row, index) => (
-                        <tr key={index}>
-                            <td>{row.date}</td>
-                            <td>{row.revenue}</td>
-                            <td>{row.netIncome}</td>
-                            <td>{row.grossProfit}</td>
-                            <td>{row.eps}</td>
-                            <td>{row.operatingIncome}</td>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <SortSelect
+                                sortBy={sortBy} 
+                                setSortBy={setSortBy} 
+                                setSortOrder={setSortOrder} 
+                                sortOrder={sortOrder} 
+                                label="Date" 
+                            />
+                            <SortSelect 
+                                sortBy={sortBy} 
+                                setSortBy={setSortBy} 
+                                setSortOrder={setSortOrder} 
+                                sortOrder={sortOrder} 
+                                label="Revenue" 
+                            />
+                            <SortSelect 
+                                sortBy={sortBy} 
+                                setSortBy={setSortBy} 
+                                setSortOrder={setSortOrder} 
+                                sortOrder={sortOrder} 
+                                label="Net Income" 
+                            />
+                            <th>Gross Profit</th>
+                            <th>EPS (Earnings Per Share)</th>
+                            <th>Operating Income</th>
                         </tr>
-                    ))}
-                </tbody>
-            </table>
-        </div>
+                    </thead>
+                    <tbody>
+                        {filtered.map((row, index) => (
+                            <tr key={index}>
+                                <td>{row.date}</td>
+                                <td>{row.revenue}</td>
+                                <td>{row.netIncome}</td>
+                                <td>{row.grossProfit}</td>
+                                <td>{row.eps}</td>
+                                <td>{row.operatingIncome}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </>
     );
 }
 

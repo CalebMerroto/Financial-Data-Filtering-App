@@ -1,5 +1,3 @@
-/* src/Components/Table.css */
-
 /* General table styles */
 table {
     width: 100%;
@@ -53,41 +51,27 @@ td {
 
 /* Responsive styles for phones */
 @media (max-width: 768px) {
-    /* Make table scrollable horizontally */
-    table {
+    /* Ensure horizontal scrollability */
+    .table-container {
         width: 100%;
-        border-collapse: collapse;
-        overflow-x: auto;
-        display: inline-block; 
-        font-size: 14px;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
     }
 
-    thead,
-    tbody {
-        display: table; 
+    table {
+        font-size: 14px; /* Adjust font size for smaller screens */
         width: 100%;
     }
 
     th, td {
-        padding: 10px;
-        white-space: nowrap; 
-    }
-    thead th {
-        width: auto; 
-    }
-
-    tbody td {
-        width: auto; 
+        white-space: nowrap; /* Prevent wrapping to maintain alignment */
+        padding: 10px; /* Adjust padding for smaller screens */
     }
 
     th {
         background-color: #f4f4f4;
-        position: sticky;
+        position: sticky; /* Sticky header for better usability */
         top: 0;
         z-index: 1;
-    }
-
-    tbody tr:nth-child(even) {
-        background-color: #f9f9f9;
     }
 }
