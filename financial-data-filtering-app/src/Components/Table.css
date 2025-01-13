@@ -61,6 +61,7 @@ td {
     table {
         font-size: 14px; /* Adjust font size for smaller screens */
         width: 100%;
+        table-layout: fixed;
     }
 
     th, td {
