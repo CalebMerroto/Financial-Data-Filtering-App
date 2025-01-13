@@ -9,6 +9,7 @@ table {
     font-family: Arial, sans-serif;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    table-layout: auto;
 }
 
 thead tr {
@@ -70,6 +71,13 @@ td {
     th, td {
         padding: 10px;
         white-space: nowrap; 
+    }
+    thead th {
+        width: auto; 
+    }
+
+    tbody td {
+        width: auto; 
     }
 
     th {
