@@ -1,5 +1,5 @@
 // src/Components/Table.jsx
-import { React, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import fetchIncomeData from "../API";
 import DateRange from "./DateRange";
 import "./Table.css";
