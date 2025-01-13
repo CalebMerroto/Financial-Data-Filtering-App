@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Financial-Data-Filtering-App/static/css/main.95b79ff4.chunk.css",
-    "main.js": "/Financial-Data-Filtering-App/static/js/main.9fc20cf3.chunk.js",
-    "main.js.map": "/Financial-Data-Filtering-App/static/js/main.9fc20cf3.chunk.js.map",
+    "main.css": "/Financial-Data-Filtering-App/static/css/main.d23a7e08.chunk.css",
+    "main.js": "/Financial-Data-Filtering-App/static/js/main.ef0b8b64.chunk.js",
+    "main.js.map": "/Financial-Data-Filtering-App/static/js/main.ef0b8b64.chunk.js.map",
     "runtime-main.js": "/Financial-Data-Filtering-App/static/js/runtime-main.e83638f5.js",
     "runtime-main.js.map": "/Financial-Data-Filtering-App/static/js/runtime-main.e83638f5.js.map",
     "static/js/2.de0de1ae.chunk.js": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js",
     "static/js/2.de0de1ae.chunk.js.map": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js.map",
     "index.html": "/Financial-Data-Filtering-App/index.html",
-    "precache-manifest.c364beec40b17f68234865e005050b3d.js": "/Financial-Data-Filtering-App/precache-manifest.c364beec40b17f68234865e005050b3d.js",
+    "precache-manifest.16eb6e0a30cc8ef7bdb12ca43db0cecf.js": "/Financial-Data-Filtering-App/precache-manifest.16eb6e0a30cc8ef7bdb12ca43db0cecf.js",
     "service-worker.js": "/Financial-Data-Filtering-App/service-worker.js",
-    "static/css/main.95b79ff4.chunk.css.map": "/Financial-Data-Filtering-App/static/css/main.95b79ff4.chunk.css.map",
+    "static/css/main.d23a7e08.chunk.css.map": "/Financial-Data-Filtering-App/static/css/main.d23a7e08.chunk.css.map",
     "static/js/2.de0de1ae.chunk.js.LICENSE.txt": "/Financial-Data-Filtering-App/static/js/2.de0de1ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e83638f5.js",
     "static/js/2.de0de1ae.chunk.js",
-    "static/css/main.95b79ff4.chunk.css",
-    "static/js/main.9fc20cf3.chunk.js"
+    "static/css/main.d23a7e08.chunk.css",
+    "static/js/main.ef0b8b64.chunk.js"
   ]
 }
