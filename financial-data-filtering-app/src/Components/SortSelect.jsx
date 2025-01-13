@@ -1,5 +1,5 @@
 // src/Components/SortSelect.jsx
-import { useEffect, useState } from "react";
+import { React, useEffect, useState } from "react";
 import "./SortSelect.css"
 
 function SortSelect({ sortBy, setSortBy, sortOrder, setSortOrder, label }) {

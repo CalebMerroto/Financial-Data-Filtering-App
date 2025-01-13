@@ -1,6 +1,6 @@
 /* src/Components/Table.css */
 
-
+/* General table styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -10,7 +10,7 @@ table {
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
- 
+
 thead tr {
     background-color: #f4f4f4;
     border-bottom: 2px solid #ddd;
@@ -35,23 +35,12 @@ tbody tr:hover {
     background-color: #f1f1f1;
 }
 
-
 td {
     padding: 12px;
     color: #555;
 }
 
-@media (max-width: 768px) {
-    table {
-        font-size: 14px;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-}
-
-
+/* Filters container styles */
 .filters {
     display: flex;
     flex-wrap: wrap;
@@ -59,4 +48,39 @@ td {
     margin-bottom: 20px;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Responsive styles for phones */
+@media (max-width: 768px) {
+    /* Make table scrollable horizontally */
+    table {
+        font-size: 14px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    thead tr {
+        display: table; /* Ensure headers are still visible in the scrollable table */
+        width: 100%;
+    }
+
+    tbody tr {
+        display: table-row;
+    }
+
+    /* Stack filters vertically */
+    .filters {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .filters label, .filters input, .filters select {
+        width: 100%;
+    }
 }

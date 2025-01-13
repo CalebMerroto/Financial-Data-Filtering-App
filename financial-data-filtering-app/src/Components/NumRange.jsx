@@ -1,5 +1,6 @@
 // src/Components/NumRange.jsx
 import "./NumRange.css"
+import React from "react";
 
 function NumRange({ min, setMin, max, setMax, minLabel, maxLabel }) {
     return (
